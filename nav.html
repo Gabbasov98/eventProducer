@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page _open-modal2">
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="blog.html" style="display: block; margin-bottom: 20px;">
+            Блог
+        </a>
+        <a href="blog-item.html" style="display: block; margin-bottom: 20px;">
+            Статья
+        </a>
+
+
+
+
+        <button data-modal="clientModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Клиент
+        </button>
+        <button data-modal="textModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Текст
+        </button>
+        <button data-modal="contactsModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Контакты
+        </button>
+        <button data-modal="docModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Резюме и презентация
+        </button>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!--  -->
+    <div class="modal" id="clientModal">
+        <div class="modal__dialog">
+            <div class="client-card">
+                <div class="client-card__content">
+                    <div class="client-card__name text32">
+                        StanleyBlack & Decker
+                    </div>
+                    <div class="client-card__title text16">
+                        Клиент
+                    </div>
+                </div>
+                <div class="client-card__img">
+                    <img src="img/portfolio8.svg" alt="">
+                </div>
+            </div>
+
+            <div class="about-client">
+                <div class="article-text">
+                    <h4>О мероприятии</h4>
+                    <p>К насыщенной обучающей программе и тестированию оборудования клиенты решили добавить творческий элемент и объявили конкурс на самую забавную сценку на тему «Электроинструменты».</p>
+                    <p>Показ сценок и награждение по итогам всех 3-х дней прошли на финальном банкете. Атмосферу юмора на банкете создала легендарная труппа «Маски-шоу"и отрывная группа «Мамульки бэнд».</p>
+                </div>
+            </div>
+
+            <div class="client-gallery">
+                <h4 class="text32">
+                    Галерея
+                </h4>
+                <div class="client-gallery__grid">
+                    <div class="client-gallery__item">
+                        <img src="img/gallery3.webp" alt="">
+                    </div>
+                    <div class="client-gallery__item">
+                        <img src="img/gallery4.webp" alt="">
+                    </div>
+                    <div class="client-gallery__item">
+                        <img src="img/gallery5.webp" alt="">
+                    </div>
+                    <div class="client-gallery__item">
+                        <img src="img/gallery6.webp" alt="">
+                    </div>
+                    <div class="client-gallery__item">
+                        <img src="img/gallery7.webp" alt="">
+                    </div>
+                    <div class="client-gallery__item">
+                        <img src="img/gallery8.webp" alt="">
+                    </div>
+                    <div class="client-gallery__item">
+                        <img src="img/gallery9.webp" alt="">
+                    </div>
+                    <div class="client-gallery__item">
+                        <img src="img/gallery10.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="modal__bg _close-modal"></div>
+        <button class="modal__close _close-modal m-btn">
+            <span class="text-container">
+              <span class="icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="_stroke" d="M19.1111 19.1111L4.88895 4.88894" stroke="#E6311F" stroke-width="2" stroke-linecap="round"/>
+                    <path class="_stroke" d="M19.1111 4.88894L4.88892 19.1111" stroke="#E6311F" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </span>
+            </span>
+        </button>
+
+    </div>
+
+    <div class="modal text-modal" id="textModal">
+        <div class="modal__dialog">
+            <div class="article-text">
+                <div class="text-modal__num">
+                    <span>2</span>
+                </div>
+                <h2>Второй этап работы над проектом</h2>
+                <p>Всем привет! С вами наш еженедельный проект «Человек Созвездия», в котором люди, которые создают то самое волшебство, но часто остаются в тени, рассказывают о себе. И на этот раз героем стала Надежда Игоревна Чулкова, старший методист Краевого детского центра «Созвездие».Надежда Игоревна известна вам как руководитель детского объединения «Я — Вожатый» и таких проектов, как «КВН„(с 2014 года) и «Семья На Каникулах„.</p>
+                <p>Но также в её послужном списке числится руководство такими проектами как «Экомир», «Восточный Bit», «Мир без границ» «Исследователи», «Олимпийское „Созвездие“», «Территория спорта».Секреты волшебстваот руководителя всех ваших любимых проектов узнаем прямо сейчас!</p>
+                <p>В эфире уже ставший традиционным еженедельный проект «Человек Созвездия», рассказывающий о людях, которые создают то самое волшебство, но часто остаются в тени.</p>
+                <p>Очередным участником стала Юлия Евгеньевна Федотова, начальник медицинской части Краевого детского центра «Созвездие». Давайте же вместе узнаем секреты волшебства от главного хранителя здоровья всех участников наших проектов!</p>
+            </div>
+        </div>
+        <div class="modal__bg _close-modal"></div>
+        <button class="modal__close _close-modal m-btn">
+            <span class="text-container">
+              <span class="icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="_stroke" d="M19.1111 19.1111L4.88895 4.88894" stroke="#E6311F" stroke-width="2" stroke-linecap="round"/>
+                    <path class="_stroke" d="M19.1111 4.88894L4.88892 19.1111" stroke="#E6311F" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </span>
+            </span>
+        </button>
+
+    </div>
+
+
+    <div class="modal modal2" id="contactsModal">
+        <div class="modal__dialog">
+            <div class="text16">Контакты</div>
+            <div class="footer__links">
+                <a href="" class="footer__link m-btn">
+                    <span class="text-container">
+                    <span class="text">Telegram</span>
+                    </span>
+                    <span class="icon">
+                    <img src="img/arrow2.svg" alt="">
+                  </span>
+                </a>
+                <a href="" class="footer__link m-btn">
+                    <span class="text-container">
+                    <span class="text">Whatsapp</span>
+                    </span>
+                    <span class="icon">
+                    <img src="img/arrow2.svg" alt="">
+                  </span>
+                </a>
+                <a href="" class="footer__link m-btn">
+                    <span class="text-container">
+                    <span class="text">WeChat</span>
+                    </span>
+                    <span class="icon">
+                    <img src="img/arrow2.svg" alt="">
+                  </span>
+                </a>
+            </div>
+            <div class="footer-contacts">
+                <a href="tel:+79002452909" class="footer-contacts__link"><span>+7 900-245-29-09</span></a>
+                <a href="mailto:evantina123@gmail.com" class="footer-contacts__link"><span>evantina123@gmail.com</span></a>
+            </div>
+            <button class="modal__close _close-modal m-btn">
+                <span class="text-container">
+              <span class="icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="_stroke" d="M19.1111 19.1111L4.88895 4.88894" stroke="#E6311F" stroke-width="2" stroke-linecap="round"/>
+                    <path class="_stroke" d="M19.1111 4.88894L4.88892 19.1111" stroke="#E6311F" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </span>
+                </span>
+            </button>
+
+        </div>
+        <div class="modal__bg _close-modal"></div>
+    </div>
+
+    <div class="modal modal2 doc-modal" id="docModal">
+        <div class="modal__dialog">
+            <div class="doc-modal__grid">
+                <div class="doc-modal__col">
+                    <div class="doc-modal__group">
+                        <div class="text24">Резюме</div>
+                        <div class="doc-modal__links">
+                            <a href="" class="m-btn m-btn-gray">
+                                <span class="text-container">
+                            <span class="text">Скачать PDF</span>
+                                </span>
+                            </a>
+                            <a href="" class="m-btn m-btn-gray">
+                                <span class="text-container">
+                            <span class="text">Скачать DOC</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="doc-modal__group">
+                        <div class="text24">Презентация</div>
+                        <div class="doc-modal__links">
+                            <a href="" class="m-btn m-btn-gray">
+                                <span class="text-container">
+                            <span class="text">Скачать PDF</span>
+                                </span>
+                            </a>
+                            <a href="" class="m-btn m-btn-gray">
+                                <span class="text-container">
+                            <span class="text">Скачать PPTX</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="doc-modal__col">
+                    <div class="doc-modal__group">
+                        <div class="text24">Resume</div>
+                        <div class="doc-modal__links">
+                            <a href="" class="m-btn m-btn-gray">
+                                <span class="text-container">
+                            <span class="text">Download PDF</span>
+                                </span>
+                            </a>
+                            <a href="" class="m-btn m-btn-gray">
+                                <span class="text-container">
+                            <span class="text">Download DOC</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="doc-modal__group">
+                        <div class="text24">Presentation</div>
+                        <div class="doc-modal__links">
+                            <a href="" class="m-btn m-btn-gray">
+                                <span class="text-container">
+                            <span class="text">Download PDF</span>
+                                </span>
+                            </a>
+                            <a href="" class="m-btn m-btn-gray">
+                                <span class="text-container">
+                            <span class="text">Download PPTX</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="modal__close _close-modal m-btn">
+                <span class="text-container">
+              <span class="icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="_stroke" d="M19.1111 19.1111L4.88895 4.88894" stroke="#E6311F" stroke-width="2" stroke-linecap="round"/>
+                    <path class="_stroke" d="M19.1111 4.88894L4.88892 19.1111" stroke="#E6311F" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </span>
+                </span>
+            </button>
+
+        </div>
+        <div class="modal__bg _close-modal"></div>
+    </div>
+
+    <script type="module" src="js/libs.min.js"></script>
+    <script type="module" src="js/main.min.js"></script>
+
+</body>
+
+</html>
